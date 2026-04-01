@@ -11,12 +11,11 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <div className="max-w-3xl mx-auto px-4 pt-6">
-        <BackButton />
-      </div>
-
-      <section className="w-full bg-primary py-16 px-4 text-center" aria-labelledby="privacy-page-heading">
+      <section className="w-full bg-primary py-16 px-4" aria-labelledby="privacy-page-heading">
         <div className="max-w-3xl mx-auto">
+          <BackButton />
+        </div>
+        <div className="max-w-3xl mx-auto text-center mt-4">
           <h1 id="privacy-page-heading" className="font-heading text-4xl md:text-5xl font-bold text-white mb-4">
             Privacy Policy
           </h1>

@@ -26,12 +26,11 @@ const timeline = [
 export default function AboutPage() {
   return (
     <>
-      <div className="max-w-5xl mx-auto px-4 pt-6">
-        <BackButton />
-      </div>
-
-      <section className="w-full bg-primary py-16 px-4 text-center" aria-labelledby="about-page-heading">
-        <div className="max-w-3xl mx-auto">
+      <section className="w-full bg-primary py-16 px-4" aria-labelledby="about-page-heading">
+        <div className="max-w-5xl mx-auto">
+          <BackButton />
+        </div>
+        <div className="max-w-3xl mx-auto text-center mt-4">
           <h1 id="about-page-heading" className="font-heading text-4xl md:text-5xl font-bold text-white mb-4">
             About Texas Home Construction
           </h1>

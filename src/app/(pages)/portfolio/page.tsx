@@ -11,12 +11,11 @@ export const metadata: Metadata = {
 export default function PortfolioPage() {
   return (
     <>
-      <div className="max-w-6xl mx-auto px-4 pt-6">
-        <BackButton />
-      </div>
-
-      <section aria-labelledby="portfolio-page-heading" className="bg-primary py-16 px-4 text-center">
-        <div className="max-w-3xl mx-auto">
+      <section aria-labelledby="portfolio-page-heading" className="bg-primary py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <BackButton />
+        </div>
+        <div className="max-w-3xl mx-auto text-center mt-4">
           <h1 id="portfolio-page-heading" className="font-heading text-4xl font-bold text-white mb-4">
             Our Portfolio
           </h1>
