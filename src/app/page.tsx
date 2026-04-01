@@ -29,7 +29,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(LocalBusiness) }}
       />
       <Header currentPath="/" />
-      <main>
+      <main className="pt-16">
         <HeroSection />
         <TrustSignals />
         <ServicesSection />

@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-screen-2xl mx-auto">
+      <body className="min-h-screen overflow-x-hidden">
         {children}
         <LiveChat />
       </body>

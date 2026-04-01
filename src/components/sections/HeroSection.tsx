@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="relative w-full h-screen min-h-[600px] scroll-mt-16">
+    <section id="hero" className="relative w-full h-screen min-h-[600px] pt-16">
       {/* Background image */}
       <Image
         src="https://picsum.photos/seed/construction/1920/1080"
